@@ -9,6 +9,17 @@
     <link rel="apple-touch-icon-precomposed" href="{% artwork.url %}apple-touch-icon-precomposed.png">
     <link rel="author" href="https://alexanderchristiaanjacob.com/" title="Alexander Christiaan Jacob">
     <link rel="canonical" href="{% artwork.url %}">
+    <style>
+        {% artwork.style %}
+    </style>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-6227584-61"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-6227584-61');
+    </script>
 </head>
 <body id="top">
 {% artwork.body %}
