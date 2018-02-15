@@ -1,0 +1,23 @@
+<!doctype html>
+<html dir="ltr" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>{% artwork.title %}</title>
+    <link rel="author" href="https://alexanderchristiaanjacob.com/" title="Alexander Christiaan Jacob">
+    <style>
+        {% artwork.style %}
+    </style>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-6227584-61"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-6227584-61');
+    </script>
+</head>
+<body id="top">
+{% artwork.body %}
+</body>
+</html>
