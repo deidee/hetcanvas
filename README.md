@@ -1,7 +1,9 @@
 # canvas
 HTML boilerplate for art websites.
 
-## Files
+## File checklist
+
+(Binary files are not included in repository.)
 
 - 404.html
 - apple-touch-icon-precomposed.png
