@@ -1,4 +1,5 @@
-# canvas
+# Canvas
+
 HTML boilerplate for art websites.
 
 ## File checklist
@@ -12,5 +13,6 @@ HTML boilerplate for art websites.
 - favicon.ico
 - humans.txt
 - index.html
+- manifest.json
 - robots.txt
 - sitemap.xml

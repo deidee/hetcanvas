@@ -4,10 +4,10 @@
     <meta charset="utf-8">
     <meta name="robots" content="follow, noarchive, noindex">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>{% artwork.title %}</title>
+    <title>{{ artwork.title }}</title>
     <link rel="author" href="https://alexanderchristiaanjacob.com/" title="Alexander Christiaan Jacob">
     <style>
-        {% artwork.style %}
+        {{ artwork.style }}
     </style>
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-6227584-61"></script>
     <script>
@@ -19,6 +19,7 @@
     </script>
 </head>
 <body id="top">
-{% artwork.body %}
+{% block body %}
+{% endblock %}
 </body>
 </html>

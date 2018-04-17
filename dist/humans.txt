@@ -4,3 +4,6 @@
     Site: https://alexanderchristiaanjacob.com/
     Twitter: @ACJ
     Location: The Hague, Netherlands
+
+/* SITE */
+    IDE: PhpStorm
