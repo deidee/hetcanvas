@@ -6,4 +6,5 @@
     Location: The Hague, Netherlands
 
 /* SITE */
+    Standards: HTML, CSS
     IDE: PhpStorm
