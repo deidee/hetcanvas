@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/acjbizar/canvas/issues"
   },
-  "homepage": "https://github.com/acjbizar/canvas#readme"
+  "homepage": "https://github.com/acjbizar/canvas#readme",
+  "dependencies": {
+    "grunt-twig-render": "^1.8.2"
+  }
 }
