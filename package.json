@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/acjbizar/canvas#readme",
   "dependencies": {
+    "grunt": "^1.0.3",
     "grunt-twig-render": "^1.8.2"
   }
 }
