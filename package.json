@@ -1,0 +1,24 @@
+{
+  "name": "twig-art-canvas",
+  "version": "0.0.1",
+  "description": "Boilerplate for Internet art, using Twig.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acjbizar/canvas.git"
+  },
+  "keywords": [
+    "art",
+    "twig",
+    "boilerplate"
+  ],
+  "author": "ACJ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/acjbizar/canvas/issues"
+  },
+  "homepage": "https://github.com/acjbizar/canvas#readme"
+}
