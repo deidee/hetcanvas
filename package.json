@@ -17,6 +17,7 @@
   ],
   "author": "ACJ",
   "license": "MIT",
+  "private": true,
   "bugs": {
     "url": "https://github.com/acjbizar/canvas/issues"
   },
