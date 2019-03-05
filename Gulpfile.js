@@ -16,8 +16,10 @@ gulp.task('templates', function() {
                     themeColor: '#a00ade',
                     image: '',
                     url: '/'
-                }
-            }
+                },
+                body: '<h1>Hello, World!</h1>'
+            },
+            extname: false
         }))
         .pipe(gulp.dest('dist')); // output the rendered HTML files to the "dist" directory
 });
