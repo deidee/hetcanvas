@@ -23,9 +23,11 @@
     <link rel="author" href="https://alexanderchristiaanjacob.com/" title="Alexander Christiaan Jacob">
     <link rel="canonical" href="{{ artwork.url }}">
     <link rel="manifest" href="{{ artwork.url }}manifest.json">
-    <style>
-        {{ artwork.style }}
-    </style>
+    {% if artwork.style %}
+        <style>
+            {{ artwork.style }}
+        </style>
+    {% endif %}
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-6227584-61"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -35,25 +37,25 @@
         gtag('config', 'UA-6227584-61');
     </script>
     <script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "VisualArtwork",
-      "name": "{{ artwork.title }}",
-      "image": "{{ artwork.image }}",
-      "description": "{{ artwork.description }}",
-      "url": "{{ artwork.url }}",
-      "creator": [
         {
-          "@type": "Person",
-          "name": "Alexander Christiaan Jacob",
-          "url": "https://alexanderchristiaanjacob.com/",
-          "sameAs": "https://twitter.com/acj"
+            "@context": "http://schema.org",
+            "@type": "VisualArtwork",
+            "name": "{{ artwork.title }}",
+            "image": "{{ artwork.image }}",
+            "description": "{{ artwork.description }}",
+            "url": "{{ artwork.url }}",
+            "creator": [
+                {
+                    "@type": "Person",
+                    "name": "Alexander Christiaan Jacob",
+                    "url": "https://alexanderchristiaanjacob.com/",
+                    "sameAs": "https://twitter.com/acj"
+                }
+            ],
+            "artform": "website",
+            "accessModeSufficient": "visual",
+            "interactivityType": "mixed"
         }
-      ],
-      "artform": "website",
-      "accessModeSufficient": "visual",
-      "interactivityType": "mixed"
-    }
     </script>
 </head>
 <body id="top">
