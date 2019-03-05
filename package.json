@@ -1,6 +1,6 @@
 {
   "name": "twig-art-canvas",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Boilerplate for Internet art, using Twig.",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,8 @@
   "keywords": [
     "art",
     "twig",
-    "boilerplate"
+    "boilerplate",
+    "gulp"
   ],
   "author": "ACJ",
   "license": "MIT",
@@ -23,9 +24,6 @@
   },
   "homepage": "https://github.com/acjbizar/canvas#readme",
   "dependencies": {
-    "grunt": "^1.0.3",
-    "grunt-twig": "^1.0.0",
-    "grunt-twig-render": "^1.8.2",
     "gulp": "^4.0.0",
     "gulp-twig": "^1.2.0"
   }
