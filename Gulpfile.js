@@ -18,9 +18,9 @@ gulp.task('templates', function() {
                     dir: 'ltr',
                     lang: 'en',
                     description: 'Blank canvas.',
-                    title: 'canvas',
-                    themeColor: '#a00ade',
-                    image: '',
+                    title: 'het Canvas',
+                    themeColor: 'white',
+                    image: 'https://deidee.com/logo.png?str=hetcanvas',
                     url: '/'
                 },
                 body: '<h1>Hallo, wereld!</h1>'
