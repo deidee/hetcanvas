@@ -4,7 +4,7 @@ var twig = require('gulp-twig');
 
 // Compile Twig templates to HTML
 gulp.task('templates', function() {
-    return gulp.src('src/*.twig') // run the Twig template parser on all .html files in the "src" directory
+    return gulp.src(['src/*.twig', '!src/canvas.html.twig']) // run the Twig template parser on all .html files in the "src" directory
         .pipe(twig({
             // TODO: Feed it JSON, or something.
             data: {
