@@ -1,6 +1,6 @@
-# het Canvas
+# ![hetcanvas](https://deidee.com/logo.png?str=hetcanvas)
 
-HTML-boilerplate voor kunstwebsites.
+Templates voor kunstwebsites.
 
 ## Bestanden
 
