@@ -1,8 +1,8 @@
-# Canvas
+# het Canvas
 
-HTML boilerplate for art websites.
+HTML-boilerplate voor kunstwebsites.
 
-## File checklist
+## Bestanden
 
 (Binary files are not included in repository.)
 

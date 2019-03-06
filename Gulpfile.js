@@ -17,7 +17,7 @@ gulp.task('templates', function() {
                     image: '',
                     url: '/'
                 },
-                body: '<h1>Hello, World!</h1>'
+                body: '<h1>Hallo, wereld!</h1>'
             },
             extname: false
         }))
