@@ -1,10 +1,10 @@
 
 /* TEAM */
     Artist: Jan Janssen
-    Site: 
+    Site: /
     Twitter: @ACJ
     Location: Den Haag, Nederland
 
 /* SITE */
-    Standards: HTML, CSS
-    IDE: PhpStorm
+    Standards: HTML, CSS, OGP
+    Preprocessing: Gulp, Twig

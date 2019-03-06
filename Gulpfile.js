@@ -12,7 +12,7 @@ gulp.task('templates', function() {
                     location: 'Den Haag, Nederland',
                     name: 'Jan Janssen',
                     twitter: 'ACJ',
-                    url: ''
+                    url: '/'
                 },
                 artwork: {
                     dir: 'ltr',
