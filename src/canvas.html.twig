@@ -20,7 +20,7 @@
     <meta property="og:url" content="{{ artwork.url }}">
     <title>{{ artwork.title }}</title>
     <link rel="apple-touch-icon-precomposed" href="{{ artwork.url }}apple-touch-icon-precomposed.png">
-    <link rel="author" href="https://alexanderchristiaanjacob.com/" title="Alexander Christiaan Jacob">
+    <link rel="author" href="{{ artist.url }}" title="{{ artist.name }}">
     <link rel="canonical" href="{{ artwork.url }}">
     <link rel="manifest" href="{{ artwork.url }}manifest.json">
     {% if artwork.style %}
@@ -47,8 +47,8 @@
             "creator": [
                 {
                     "@type": "Person",
-                    "name": "Alexander Christiaan Jacob",
-                    "url": "https://alexanderchristiaanjacob.com/",
+                    "name": "{{ artist.name }}",
+                    "url": "{{ artist.url }}",
                     "sameAs": "https://twitter.com/acj"
                 }
             ],

@@ -1,9 +1,9 @@
 
 /* TEAM */
-    Artist: Alexander Christiaan Jacob
-    Site: https://alexanderchristiaanjacob.com/
+    Artist: Jan Janssen
+    Site: 
     Twitter: @ACJ
-    Location: The Hague, Netherlands
+    Location: Den Haag, Nederland
 
 /* SITE */
     Standards: HTML, CSS

@@ -8,6 +8,11 @@ gulp.task('templates', function() {
         .pipe(twig({
             // TODO: Feed it JSON, or something.
             data: {
+                artist: {
+                    location: 'Den Haag, Nederland',
+                    name: 'Jan Janssen',
+                    url: ''
+                },
                 artwork: {
                     dir: 'ltr',
                     lang: 'en',
