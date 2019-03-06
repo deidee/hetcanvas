@@ -11,6 +11,7 @@ gulp.task('templates', function() {
                 artist: {
                     location: 'Den Haag, Nederland',
                     name: 'Jan Janssen',
+                    twitter: 'ACJ',
                     url: ''
                 },
                 artwork: {
