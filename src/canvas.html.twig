@@ -33,10 +33,10 @@
     {%- endif %}
     <link rel="canonical" href="{{ artwork.url }}">
     <link rel="manifest" href="{{ artwork.url }}manifest.json">
-    {% if artwork.style %}
-        <style>
-            {{ artwork.style }}
-        </style>
+    {%- if block('style') is defined %}
+    <style>
+    {% block style %}{% endblock %}
+    </style>
     {% endif -%}
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-6227584-61"></script>
     <script>
