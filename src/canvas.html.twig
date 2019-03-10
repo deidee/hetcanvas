@@ -7,14 +7,18 @@
     <meta name="application-name" content="{{ artwork.title }}">
     <meta name="description" content="{{ artwork.description }}">
     <meta name="robots" content="all">
+    {%- if artwork.themeColor %}
     <meta name="theme-color" content="{{ artwork.themeColor }}">
+    {%- endif %}
     <meta name="twitter:card" content="summary_large_image">
     {%- if artist.twitter %}
     <meta name="twitter:site" content="@{{ artist.twitter }}">
     <meta name="twitter:creator" content="@{{ artist.twitter }}">
     {% endif -%}
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <meta property="fb:admins" content="509248955">
+    {%- if artist.facebook.id %}
+    <meta property="fb:admins" content="{{ artist.facebook.id }}">
+    {%- endif %}
     <meta property="og:description" content="{{ artwork.description }}">
     {%- if artwork.image %}
     <meta property="og:image" content="{{ artwork.image }}">
@@ -38,14 +42,16 @@
     {% block style %}{% endblock %}
     </style>
     {% endif -%}
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-6227584-61"></script>
+    {%- if gtm %}
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ gtm }}"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
-        gtag('config', 'UA-6227584-61');
+        gtag('config', '{{ gtm }}');
     </script>
+    {%- endif %}
     <script type="application/ld+json">
         {
             "@context": "http://schema.org",

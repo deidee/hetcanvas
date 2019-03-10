@@ -12,17 +12,22 @@ gulp.task('templates', function() {
                     location: 'Den Haag, Nederland',
                     name: 'Jan Janssen',
                     twitter: 'ACJ',
-                    url: '/'
+                    url: '/',
+                    facebook: {
+                        id: '509248955',
+                        username: 'acjbizar'
+                    }
                 },
                 artwork: {
                     dir: 'ltr',
-                    lang: 'en',
+                    lang: 'nl',
                     description: 'Blank canvas.',
                     title: 'het Canvas',
                     themeColor: 'white',
                     image: 'https://deidee.com/logo.png?str=hetcanvas',
                     url: '/'
                 },
+                gtm: 'UA-6227584-61',
                 body: '<h1>Hallo, wereld!</h1>'
             },
             extname: false
