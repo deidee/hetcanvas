@@ -6,10 +6,11 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="application-name" content="{{ artwork.title }}">
     <meta name="description" content="{{ artwork.description }}">
-    <meta name="robots" content="all">
+    <meta name="msapplication-config" content="{{ artwork.url }}browserconfig.xml">
+    <meta name="robots" content="{{ artwork.robots|default('all') }}">
     {%- if artwork.themeColor %}
     <meta name="theme-color" content="{{ artwork.themeColor }}">
-    {%- endif %}
+    {% endif -%}
     <meta name="twitter:card" content="summary_large_image">
     {%- if artist.twitter %}
     <meta name="twitter:site" content="@{{ artist.twitter }}">
