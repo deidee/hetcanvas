@@ -27,7 +27,7 @@ npm install
 
 In het bestand `Gulpfile.js` kun je in de variabele `data` alle relevante gegevens van de kunstenaar en het kunstwerk kwijt. Standaard bevat het de volgende data:
 
-```JSON
+```JavaScript
 data: {
     artist: {
         location: 'Den Haag, Nederland',
