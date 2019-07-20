@@ -1,16 +1,16 @@
 {
     "manifest_version": 2,
-    "version": "1552336600",
+    "version": "1563638908",
     "name": "het Canvas",
     "default_locale": "nl",
     "description": "Blank canvas.",
     "author": "Jan Janssen",
     "theme_color": "white",
-    "homepage_url": "./",
-    "start_url": "./",
+    "homepage_url": "https://jeidee.nl/",
+    "start_url": "https://jeidee.nl/",
     "icons": [
         {
-            "src": "./apple-touch-icon-precomposed.png"
+            "src": "https://jeidee.nl/apple-touch-icon-precomposed.png"
         }
     ],
     "display": "fullscreen"

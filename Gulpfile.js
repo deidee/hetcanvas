@@ -6,7 +6,7 @@ var twig = require('gulp-twig');
 gulp.task('templates', function() {
     return gulp.src(['src/*.twig', '!src/canvas.html.twig'])
         .pipe(twig({
-            // TODO: Feed it a file. (JSON? ini? YAML? Something else?)
+            // This is sample data. Replace with your own!
             data: {
                 artist: {
                     location: 'Den Haag, Nederland',
@@ -18,15 +18,16 @@ gulp.task('templates', function() {
                     dir: 'ltr',
                     lang: 'nl',
                     description: 'Blank canvas.',
+                    help: 'https://github.com/deidee/hetcanvas',
                     title: 'het Canvas',
                     themeColor: 'white',
                     image: 'https://deidee.com/logo.png?str=hetcanvas',
-                    url: './'
+                    url: 'https://jeidee.nl/'
                 },
                 body: '<h1>Hallo, wereld!</h1>',
                 gtm: 'UA-6227584-61'
             },
-            extname: false
+            extname: false // Prevent file extensions from being duplicated in output.
         }))
         .pipe(gulp.dest('dist')); // output the rendered files to the "dist" directory
 });
