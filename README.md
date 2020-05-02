@@ -7,12 +7,13 @@ Templates voor kunstwebsites. Maakt dankbaar gebruik van [Twig](https://twig.sym
 De volgende bestanden worden door het templatesysteem gegenereerd:
 
 - `404.html`
-- `browserconfig.xml`
-- `humans.txt`
+- [`ads.txt`](https://iabtechlab.com/wp-content/uploads/2019/03/IAB-OpenRTB-Ads.txt-Public-Spec-1.0.2.pdf)
+- <a href="https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/platform-apis/dn320426(v=vs.85)">`browserconfig.xml`</a>
+- [`humans.txt`](http://humanstxt.org/)
 - `index.html`
-- `manifest.webmanifest`
-- `robots.txt`
-- `sitemap.xml`
+- [`manifest.webmanifest`](https://developer.mozilla.org/en-US/docs/Web/Manifest)
+- [`robots.txt`](https://www.robotstxt.org/)
+- [`sitemap.xml`](https://www.sitemaps.org/)
 
 # Installeren
 
