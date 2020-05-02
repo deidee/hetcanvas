@@ -1,0 +1,13 @@
+{
+    "description": "Blank canvas.",
+    "display": "fullscreen",
+    "icons": [
+        {
+            "src": "https://jeidee.nl/apple-touch-icon-precomposed.png"
+        }
+    ],
+    "lang": "nl",
+    "name": "het Canvas",
+    "start_url": "https://jeidee.nl/",
+    "theme_color": "white"
+}

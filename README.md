@@ -10,7 +10,7 @@ De volgende bestanden worden door het templatesysteem gegenereerd:
 - `browserconfig.xml`
 - `humans.txt`
 - `index.html`
-- `manifest.json`
+- `manifest.webmanifest`
 - `robots.txt`
 - `sitemap.xml`
 
