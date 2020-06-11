@@ -40,13 +40,13 @@
     {%- if artwork.help %}
     <link rel="help" href="{{ artwork.help }}">
     {%- endif %}
-    <link rel="manifest" href="{{ artwork.url }}manifest.json">
+    <link rel="manifest" href="{{ artwork.url }}manifest.webmanifest">
     {%- if block('style') is defined %}
     <style>
     {% block style %}{% endblock %}
     </style>
     {% endif -%}
-    {%- if gtm %}
+    {%- if gtm -%}
     <script async src="https://www.googletagmanager.com/gtag/js?id={{ gtm }}"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -64,13 +64,13 @@
             {%- if artwork.image %}
             "image": "{{ artwork.image }}",{% endif %}
             "description": "{{ artwork.description }}",
-            "url": "{{ artwork.url }}",
+            "url": "{{ artwork.url|lower }}",
             "creator": [
                 {
                     "@type": "Person",
                     "name": "{{ artist.name }}",
-                    "url": "{{ artist.url }}"{% if artist.twitter %},
-                    "sameAs": "https://twitter.com/{{ artist.twitter|lower }}"{% endif %}
+                    "url": "{{ artist.url|lower }}"{% if artist.twitter %},
+                    "sameAs": "https://twitter.com/{{ artist.twitter }}"{% endif %}
                 }
             ],
             "artform": "website",
@@ -83,7 +83,7 @@
 {%- block body %}{{ body }}{% endblock -%}
 {%- if block('script') is defined %}
 <script>
-{% block script %}{% endblock %}
+{%- block script %}{% endblock %}
 </script>
 {% endif -%}
 </body>

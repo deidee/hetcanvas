@@ -15,6 +15,7 @@ gulp.task('templates', function() {
                     url: './',
                 },
                 artwork: {
+                    backgroundColor: 'black',
                     dir: 'ltr',
                     lang: 'nl',
                     description: 'Blank canvas.',
