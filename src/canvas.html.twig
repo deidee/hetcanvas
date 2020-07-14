@@ -6,6 +6,10 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="application-name" content="{{ artwork.title }}">
     <meta name="description" content="{{ artwork.description }}">
+    <meta name="format-detection" content="address=no">
+    <meta name="format-detection" content="date=no">
+    <meta name="format-detection" content="email=no">
+    <meta name="format-detection" content="telephone=no">
     <meta name="msapplication-config" content="{{ artwork.url }}browserconfig.xml">
     <meta name="robots" content="{{ artwork.robots|default('all') }}">
     {%- if artwork.themeColor %}
